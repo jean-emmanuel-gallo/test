@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #2F2F2F !important;
+    padding-left: 122px;
+    padding-right: 122px;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: Impact, sans-serif;
+    font-size: 21px;
+    color: #fff;
+    margin-right: 36px;
+  }
+  
+  .navbar-nav .social-icons {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      color: #fff;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: url('menu-icon.png'); /* Remplacez 'menu-icon.png' par l'icône de menu que vous souhaitez utiliser */
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-bottom: 36px;
+      font-size: 18px;
+    }
+  
+    .dropdown-menu {
+      position: static;
+    }
+  
+    .navbar {
+      height: 50px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      color: #fff;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: url('menu-icon.png'); /* Remplacez 'menu-icon.png' par l'icône de menu que vous souhaitez utiliser */
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-bottom: 36px;
+      font-size: 18px;
+    }
+  
+    .dropdown-menu {
+      position: static;
+    }
+  
+    .navbar {
+      height: 50px;
+    }
+  
+    .navbar-nav .social-icons {
+      margin-left: 0;
+      margin-right: auto;
+    }
+  }
+  

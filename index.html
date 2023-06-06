@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar Responsive avec Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo du site"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notre&nbsp;Charte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thèmes</a>
+            <div class="dropdown-menu" aria-labelledby="themesDropdown">
+              <a class="dropdown-item" href="#">Analyses</a>
+              <a class="dropdown-item" href="#">Géopolitique</a>
+              <a class="dropdown-item" href="#">Histoire</a>
+              <a class="dropdown-item" href="#">Culture</a>
+            </div>
+          </li>
+          <li class="nav-item social-icons">
+            <a href="#"><img src="img/facebook-logo.png" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter-logo.png" alt="Twitter"></a>
+            <a href="#"><img src="img/vkontakte-logo.png" alt="VKontakte"></a>
+            <a href="#"><img src="img/telegam-logo.png" alt="Telegram"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Le reste du contenu de la page -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
